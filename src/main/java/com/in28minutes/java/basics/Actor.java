@@ -28,5 +28,6 @@ public class Actor {
 
 		Actor tomCruise = new Actor();
 		tomCruise.setName("Tom Cruise");
+		System.out.println("hi");
 	}
 }
