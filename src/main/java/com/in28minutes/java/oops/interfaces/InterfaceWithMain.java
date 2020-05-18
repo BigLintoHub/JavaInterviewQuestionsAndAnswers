@@ -11,7 +11,7 @@ public class InterfaceWithMain {
 		
 		
 
-		// An interface reference variable can hold objects of any implementation of interface
+		// An interface reference variable can hold objects of any implementation of interface  
 		Flyable flyable1 = new Bird();
 		Flyable flyable2 = new Aeroplane();
 		flyable1.fly();
