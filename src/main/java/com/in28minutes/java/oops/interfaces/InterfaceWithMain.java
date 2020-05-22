@@ -23,6 +23,14 @@ public class InterfaceWithMain {
 		newBird.fly();
 		newAeroplane.fly();
 		
+		//Interface reference variable can be typecasted  with Object class.
+		Object object1= new Object();
+		Object object2 = new Object();
+		
+		Flyable obj1 = (Flyable)object1;
+		Flyable obj2 = (Flyable)object2;
+		
+		obj1.fly();
 		
 	}
 }

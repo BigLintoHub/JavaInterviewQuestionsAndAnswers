@@ -24,7 +24,7 @@ class CricketScorer {
 	}
 
 	public void printScore() {
-		System.out.println("Score : " + score);
+		System.out.println("Score : " + getScore());
 	}
 
 }
@@ -37,7 +37,7 @@ public class EncapsulationExample {
 		scorer.single();
 		scorer.six();
 		scorer.six();
-		scorer.six();
+		//scorer.six();
 		scorer.printScore();
 	}
 }
