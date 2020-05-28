@@ -2,6 +2,15 @@ package com.in28minutes.java.flow;
 
 public class SwitchWithString {
 
+	
+	//Yes in Java 7 we can use String in Switch. but We can achieve it using Enum.
+
+	private enum Fruit {
+		apple, carrot, mango, orange;
+		}
+
+		
+	
 	public String getTypeOfDayWithSwitchStatement(String dayOfWeekArg) {
 		String typeOfDay;
 		switch (dayOfWeekArg) {
@@ -30,6 +39,8 @@ public class SwitchWithString {
 
 		SwitchWithString switchWithString = new SwitchWithString();
 		System.out.println(switchWithString.getTypeOfDayWithSwitchStatement("Monday"));
+		Fruit fruit = Fruit.valueOf("apple");
+		System.out.println(fruit);
 	}
 
 }

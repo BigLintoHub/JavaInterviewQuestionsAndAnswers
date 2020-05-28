@@ -81,7 +81,7 @@ public class WrapperExamples {
 		Integer wrapperEight = new Integer(8);
 
 		// Normal static toString method
-		System.out.println(Integer.toString(wrapperEight));// String Output : 8
+		System.out.println(Integer.toString(new Integer(8)));// String Output : 8
 
 		// Overloaded static toString method : 2nd parameter : radix
 		System.out.println(Integer.toString(wrapperEight, 2));// String Output :
